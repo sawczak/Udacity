@@ -1,3 +1,3 @@
-#Contributors
+# Contributors
 
--[Arek](https://github.com/arkfz)
+- [Arek](https://github.com/arkfz)
