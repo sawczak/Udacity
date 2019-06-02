@@ -60,7 +60,35 @@ while (x <= 25) {
 
 
  
-
+/* 
 for (let i = 0; i < 6; i = i + 1) {
     console.log('print = ' + i);
+}
+ */
+
+/*  for(let i = 9; i >=1; i--) {
+    console.log("hello " + i);
+} */
+
+
+/* for(let x = 5; x < 10; x++) {
+    console.log(x);
+} */
+
+
+//factorials !12 = silnia liczby 12
+/* let solution = 1;
+
+for (let i = 1; i <= 12; i++) {
+  solution *= i;
+}
+
+console.log(solution); */
+
+
+//teatr, 0-26 rzędów, 0-99 siedzeń
+for(let x = 0; x < 26; x++){
+    for(let y = 0; y < 100; y++) {
+        console.log(x + "-" + y);
+    }
 }
