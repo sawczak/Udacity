@@ -7,13 +7,31 @@ function sayHello() {
   console.log(sayHello());
 
 
+
+
   
+
   function findAverage(x, y) {
     var answer = (x + y) / 2;
     return answer;
   }
   
   var avg = findAverage(5, 9);
+
+
+
+
+
+
+function laugh() {
+    var laugh = "hahahahahahahahahaha!";
+    return laugh;
+  }
+  
+  console.log(laugh()/* call the laugh function */);
+
+
+
 
 // zapis standardowy
 /* const mnozenie = function(liczba1, liczba2) {
