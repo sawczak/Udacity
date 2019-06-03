@@ -4,9 +4,16 @@ function sayHello() {
     return message; // returns value instead of printing it
   }
 
+  console.log(sayHello());
 
 
-
+  
+  function findAverage(x, y) {
+    var answer = (x + y) / 2;
+    return answer;
+  }
+  
+  var avg = findAverage(5, 9);
 
 // zapis standardowy
 /* const mnozenie = function(liczba1, liczba2) {
