@@ -1,5 +1,5 @@
 // declares the sayHello function
-function sayHello() {
+/* function sayHello() {
     let message = "Hello!"
     return message; // returns value instead of printing it
   }
@@ -7,11 +7,11 @@ function sayHello() {
   console.log(sayHello());
 
 
+ */
 
 
-  
 
-  function findAverage(x, y) {
+/*   function findAverage(x, y) {
     var answer = (x + y) / 2;
     return answer;
   }
@@ -19,18 +19,54 @@ function sayHello() {
   var avg = findAverage(5, 9);
 
 
+ */
 
 
 
-
-function laugh() {
+/* function laugh() {
     var laugh = "hahahahahahahahahaha!";
     return laugh;
   }
   
-  console.log(laugh()/* call the laugh function */);
+  console.log(laugh()/* call the laugh function */
+//   );
 
 
+
+//function with loop
+  function laugh(num) {
+
+    let lenghtLaugh = '';
+    for(let i = 0; i < num; i++) {
+        lenghtLaugh += 'ha';     //+= oznacza x += y => x = x + y 
+    }
+    
+    return lenghtLaugh + "!";
+    
+  }
+  
+  console.log(laugh(8));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*   for (let num = 0; num < 6; i = i + 1) {
+    console.log('print = ' + i);
+}
+ */
 
 
 // zapis standardowy
